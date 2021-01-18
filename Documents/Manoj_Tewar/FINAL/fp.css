@@ -1,0 +1,162 @@
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: solid blue;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: #DC262E;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .btn
+  {
+      width: 14%;
+      height: 60px;
+      float: right;
+      background-color: #3A9DCC;
+      color: white;
+      text-align: center;
+      font-size: large;
+      padding: 3px;
+      /* margin-left:15px; */
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  .banner-area {
+      background-image: url(./my.jpg);
+      width: 100%;
+      height: 880px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    /* Centered text */
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);  
+      color: black; 
+    }
+  
+    .btn-lg {
+      background-color: #3777CC; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 250px;
+    }
+    .btn-md {
+      background-color: #111827; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 150px;
+    }
+    .row {
+      display: flex;
+    }
+    
+    .column {
+      flex: 25%;
+      padding: 5px;
+    }
+    .photos{
+      background-image: url(./blue.jpg);
+      
+    }
+
+    p{
+      color: darkgray;
+    }
+
+
+    .counter{
+      background-image: url("./mater.jpg");
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      text-align: center;
+      margin: auto;
+    }
+    
+  .mob{
+    padding: 12px 16%;
+
+  
+  }
+
+  
